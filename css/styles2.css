@@ -74,59 +74,59 @@ header{
 }
 
 /* layout for main text*/
-  .column {
-    float: left;
-    padding: 1px;
-    background-color: lightgrey;
-    margin: auto;
-  }
+.column {
+  float: left;
+  padding: 1px;
+  background-color: lightgrey;
+  margin: auto;
+}
 
-  /* side bar container */
-  .column.left {
-    width: 70%;
-    height: 600px;
-    margin: 0.1% 0% 0 0;
-  }
+/* side bar container */
+.column.left {
+  width: 70%;
+  height: 600px;
+  margin: 0.1% 0% 0 0;
+}
 
-  /* main body container*/
-  .column.right {
-    width: 29.5%;
-    height: 600px;
-    margin: 0.1%;
-  }
+/* main body container*/
+.column.right {
+  width: 29.5%;
+  height: 600px;
+  margin: 0.1%;
+}
 
-  .group:after {
-    content: "";
-    display: table;
-    clear: both;
-  }  
-  
-  .row {
-    float: left;
-    width: 99.6%;
-    margin: 0.2%;
-    border: 1px solid blue;
-    background-color: darkgrey;
-  }
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}  
 
-  .one {
-    height: 33.1%;
-  }
+.row {
+  float: left;
+  width: 99.6%;
+  margin: 0.2%;
+  border: 1px solid blue;
+  background-color: darkgrey;
+}
 
-  .two {
-    height: 33.1%;
-  }
-  
-  .three {
-    height: 33.1%;
-  }
+.one {
+  height: 33.1%;
+}
 
-  .video {
-    border: 1px solid black;
-    width: 33.1%;
-    height: 100%;
-    margin: 0.1%;
-  }
+.two {
+  height: 33.1%;
+}
+
+.three {
+  height: 33.1%;
+}
+
+.video {
+  border: 1px solid black;
+  width: 33.1%;
+  height: 100%;
+  margin: 0.1%;
+}
 
 div.content {
   margin-left: 200px;
